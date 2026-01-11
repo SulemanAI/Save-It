@@ -1,0 +1,73 @@
+name: save_it
+description: "A personal media downloader for Instagram, Facebook, and X (Twitter)"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # HTTP client for fetching media
+  http: ^1.2.2
+  
+  # HTML parsing for extracting media URLs
+  html: ^0.15.5
+  
+  # Path provider for storage access
+  path_provider: ^2.1.4
+  
+  # Permission handler for storage permissions
+  permission_handler: ^11.3.1
+  
+  # File picker/saver utilities
+  flutter_file_dialog: ^3.0.2
+  
+  # Google Mobile Ads for native ads
+  google_mobile_ads: ^5.2.0
+  
+  # Share functionality
+  share_plus: ^10.1.4
+  
+  # URL launcher for external links
+  url_launcher: ^6.3.1
+  
+  # Toast/snackbar notifications
+  fluttertoast: ^8.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # Launcher icons generator
+  flutter_launcher_icons: ^0.14.3
+
+# Launcher icons configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo/logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/logo/logo.png"
+  windows:
+    generate: true
+    image_path: "assets/logo/logo.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/logo/
