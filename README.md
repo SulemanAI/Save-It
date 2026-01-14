@@ -67,8 +67,8 @@ Social media platforms actively block direct API requests from mobile apps. The 
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SulemanAI/save_it.git
-cd save_it
+git clone https://github.com/SulemanAI/Save-It
+cd Save-It
 ```
 
 #### 2. Install Flutter Dependencies
